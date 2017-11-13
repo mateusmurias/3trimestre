@@ -1,5 +1,4 @@
 <?php
-	
 //ARQUIVO COM FUNCOES PARA MANIPULAÇÃO DOS DADOS DE ALUNOS
 	
 /////////////// B U S C A S  A L U N O ///////////////
@@ -63,8 +62,5 @@ function listaAlunosTurma($turma){
 	return $alunos;
 
 }
-
-$lista = listaAlunosTurma('1info1');
-print_r($lista);
 
 ?>
