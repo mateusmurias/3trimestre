@@ -4,4 +4,6 @@
 
 	session_destroy();
 	
-	 echo('<meta http-equiv="refresh" content="3;url=listaProfessores.php">');
+	 echo('<meta http-equiv="refresh" content="0;url=cabecalho.php">');
+
+?> 

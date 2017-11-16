@@ -7,16 +7,12 @@
 
 	//se usuario informado for 'admin' e senha informada for 'admin'
 	if($login == 'admin' && $senha == 'admin'){
-	echo("Olá, Administrador!");
 
 	//gravar as informações na session
 	$_SESSION['nome'] = "Administrador";
 	$_SESSION['login'] = "admin";
-	echo('<meta http-equiv="refresh" content="3;url=listaProfessores.php">');
-}elseif($login=='Marcelo' && $senha=='1234'){
-	echo('Olá Marcelo');
-	echo('<meta http-equiv="refresh" content="3;url=listaProfessores.php">');
+	echo('<meta http-equiv="refresh" content="0;url=cabecalho.php">');
 }else{
 	echo("Dados Invalidos");
-	echo('<meta http-equiv="refresh" content="3;url=listaProfessores.php">');
+	echo('<meta http-equiv="refresh" content="0;url=cabecalho.php">');
 }
