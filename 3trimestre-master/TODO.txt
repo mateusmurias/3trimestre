@@ -1,0 +1,16 @@
+Tarefas por Disciplina
+- baixar disciplina.csv e ofertas.csv
+
+- disciplina.php
+
+Tarefas por Disciplina chama a página listaDisciplinas.php
+-- funcao listaDisciplina() - traz todas as disciplinas 
+cada link chama detalhaDisciplina.php
+
+-- funcao buscaDisciplina($codigo) - traz os dados de uma disciplina
+
+-- listaOfertas($turma) - traz todas as ofertas de uma turma
+
+-- listaOfertasProf($siape) - traz todas as ofertas de um professor
+
+--
